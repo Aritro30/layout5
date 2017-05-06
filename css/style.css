@@ -1,0 +1,91 @@
+body{
+padding: 0px;
+    margin: 0px;
+
+}
+.container{
+	    width: 1400px;
+}
+.top{
+
+    overflow: hidden;
+    background: #4867aa;
+    color: white;
+
+
+}
+.top .container{}
+.left{width: 60%;
+    float: left;
+    padding-top: 0px;
+   }
+.left img{margin-left: 100px;
+    margin-top: -50px;
+    margin-bottom: -50px;}
+.right{width: 40%;
+    float: left;}
+.right .mail{width: 50%;
+    float: left;
+    margin-right: -75px;
+    margin-left: 0px;}
+.right .mail p{text-transform: capitalize;
+    padding-bottom: 0px;}
+.right .mail input[type="email"]{}
+.right .pass{width: 50%;
+    float: left;
+    margin-right: -75px;
+    margin-left: 0px;}
+.right .pass p{}
+.right .pass input[type="password"]{margin-right: 10px;
+    }
+.right input[type="submit"]{
+background-color: #325fc1;
+    color: white;
+
+}
+
+
+.middle{    overflow: hidden;
+background-color: #edf2f7;}
+.middle .l{width: 60%;
+    float: left;
+text-align: center;
+margin-top: 25px;}
+.middle .l p{    font-style: normal;
+    font-size: large;}
+.middle .l img{}
+.middle .r{float: left;
+    width: 40%;
+}
+.middle .r h1{font-size: xx-large;}
+.middle .r h3{}
+.middle .r .form{padding-top: 5px;}
+.middle .r .form input[type="text"],
+.middle .r .form input[type="password"]{width: 50%;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;}
+.middle .r .form h3{}
+.middle .r .form p{font-size: small;
+    text-decoration: none;
+}
+.middle .r .form p a{}
+.middle .r .form h3{    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 0;}
+.middle .r .form input[type="submit"]{background-color: #64ad4a;
+    padding: 10px 26px;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;}
+.bottom{font-size: small;    overflow: hidden;}
+.bottom .lang{float: right;
+    margin-top: 25px;
+    width: 80%;}
+.bottom .lang a{    padding: 15px;}
+.bottom .links{float: right;
+    width: 80%;
+    margin-top: 25px;}
+.bottom .links a{    padding: 15px;}
